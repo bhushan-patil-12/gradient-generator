@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    height: 100%;
+    background: linear-gradient(to right, rgb(238, 226, 228), rgb(221, 44, 80));
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* heading part css*/
+.box{
+    padding: 20px;
+    text-align: center;
+}
+.box h1{
+    padding: 10px;
+    text-transform: uppercase;
+    mix-blend-mode: overlay;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.1);
+}
+
+/* section css */
+.small-container{
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+input[type="color"] {
+    padding: 0;
+    border: none;    
+    border-radius: 10px;
+    width: 20px;
+    height: 20px;
+    outline: none;    
+}
+input[type="color"]::-webkit-color-swatch {
+    border: none;
+    border-radius: 10px;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+    border: none;
+    border-radius: 10px;
+    padding: 0;
+}
+
+.small-container button{
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.small-container img{
+    height: 20px;
+    width:20px;
+}
