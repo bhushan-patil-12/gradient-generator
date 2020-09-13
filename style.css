@@ -55,7 +55,26 @@ input[type="color"]::-webkit-color-swatch-wrapper {
     background: transparent;
 }
 
-.small-container img{
+/* all images inside the container (3 images)*/
+.container img{
     height: 20px;
     width:20px;
+}
+
+/* footer */
+.footer{
+    width: 100%;
+    padding-bottom: 30px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+.footer img{
+    margin-bottom: -5px;
+}
+.footer a{
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
